@@ -13,6 +13,7 @@ hr {
   font-size: 11px;
   text-align: center;
   margin-top: 48px;
+  color: #FFFFFF;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -35,15 +36,39 @@ hr {
   height: 480px;
   background: red;
 }
+.img-main {
+  position: relative;
+}
 .img-main img{
   width: 100%;
   border-radius: 10px;
 }
-
+.preview {
+  width: 100%;
+  height: 99%;
+  position: absolute;
+  background-color: rgba(0, 255, 247, 0.5);
+  border-radius: 10px;
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+.preview img {
+  margin-left: 42%;
+  margin-top: 42%;
+  width: 16%;
+}
+.preview:hover {
+  opacity: 1;
+}
 .title-card {
   font-size: 20px;
   font-weight: bold;
   color: #FFFFFF;
+  cursor: pointer;
+}
+.title-card:hover {
+  color: hsl(178, 100%, 50%);
 }
 .text-card {
   color: #88898b;
@@ -58,9 +83,13 @@ hr {
   float: right;
   color: #88898b;
 }
+.time-card img {
+  vertical-align: middle;
+  height: 100%;
+}
 .avatar {
   width: 40px;
-  border: 1px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 50%;
 }
 .footer-card {
@@ -74,4 +103,8 @@ hr {
 }
 .autor-card span {
   color: #FFFFFF;
+  cursor: pointer;
+}
+.autor-card span:hover {
+  color: hsl(178, 100%, 50%);
 }
