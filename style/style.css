@@ -1,10 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+*{
+  font-family: 'Outfit', sans-serif;
+}
 body {
   background-color:hsl(217, 54%, 11%);
+  overflow: auto;
+}
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
 }
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 48px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+.body-card {
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+  height: 480px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  filter: drop-shadow(0px 20px 30px #000);
+}
+.body-card-2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 480px;
+  background: red;
+}
+.img-main img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title-card {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.text-card {
+  color: #88898b;
+}
+.eth {
+  float: left;
+  display: contents;
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+}
+.time-card {
+  float: right;
+  color: #88898b;
+}
+.avatar {
+  width: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+}
+.footer-card {
+  display: flex;
+  width: 100%;
+}
+.autor-card {
+  color: #88898b;
+  text-align: center;
+  padding: 10px;
+}
+.autor-card span {
+  color: #FFFFFF;
 }
